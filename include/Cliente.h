@@ -11,6 +11,8 @@ class Cliente : public Usuario {
     public:
         Cliente(std::string nickname, std::string contrasena, std::string nombre, std::string email, std::string apellido, std::string documento);
         ~Cliente();
+        //falta lo de notis
+
 };
 
 #endif
